@@ -1,0 +1,1073 @@
+﻿@*<html>
+    <head>
+    </head>
+    <body >
+        @Html.ActionLink("text", "actionName")
+        @Html.ActionLink("text", "actionName", "controllerName")
+        @Html.ActionLink("text", "actionName", "controllerName", new { id = 1 })
+    </body>
+    </html>*@
+@model SlarkInc.Models.LeapCreditApplication
+@using System.Web
+@using Microsoft.AspNet.Identity
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://leapcredit.com/application/ -->
+<html lang="en-US" class="no-js">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application (Part 1) – Leap Credit</title>
+    <link rel="dns-prefetch" href="https://www.google.com/">
+    <link rel="dns-prefetch" href="https://s.w.org/">
+    <link rel="alternate" type="application/rss+xml" title="Leap Credit » Feed" href="https://leapcredit.com/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Leap Credit » Comments Feed" href="https://leapcredit.com/comments/feed/">
+    <script type="text/javascript" async="" src="~/Content/Application_Part1/recaptcha__en.js.download"></script>
+    <script async="" charset="utf-8" src="~/Content/Application_Part1/saved_resource" type="text/javascript"></script>
+    <script type="text/javascript" async="" src="~/Content/Application_Part1/1.js.download"></script>
+    <script type="text/javascript" async="" src="~/Content/Application_Part1/recaptcha__en.js.download"></script>
+    <script type="text/javascript">
+        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/leapcredit.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.1" } };
+        !function (a, b, c) { function d(a) { var b, c, d, e, f = String.fromCharCode; if (!k || !k.fillText) return !1; switch (k.clearRect(0, 0, j.width, j.height), k.textBaseline = "top", k.font = "600 32px Arial", a) { case "flag": return k.fillText(f(55356, 56826, 55356, 56819), 0, 0), b = j.toDataURL(), k.clearRect(0, 0, j.width, j.height), k.fillText(f(55356, 56826, 8203, 55356, 56819), 0, 0), c = j.toDataURL(), b === c && (k.clearRect(0, 0, j.width, j.height), k.fillText(f(55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447), 0, 0), b = j.toDataURL(), k.clearRect(0, 0, j.width, j.height), k.fillText(f(55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447), 0, 0), c = j.toDataURL(), b !== c); case "emoji4": return k.fillText(f(55358, 56794, 8205, 9794, 65039), 0, 0), d = j.toDataURL(), k.clearRect(0, 0, j.width, j.height), k.fillText(f(55358, 56794, 8203, 9794, 65039), 0, 0), e = j.toDataURL(), d !== e } return !1 } function e(a) { var c = b.createElement("script"); c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c) } var f, g, h, i, j = b.createElement("canvas"), k = j.getContext && j.getContext("2d"); for (i = Array("flag", "emoji4"), c.supports = { everything: !0, everythingExceptFlag: !0 }, h = 0; h < i.length; h++) c.supports[i[h]] = d(i[h]), c.supports.everything = c.supports.everything && c.supports[i[h]], "flag" !== i[h] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[i[h]]); c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function () { c.DOMReady = !0 }, c.supports.everything || (g = function () { c.readyCallback() }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function () { "complete" === b.readyState && c.readyCallback() })), f = c.source || {}, f.concatemoji ? e(f.concatemoji) : f.wpemoji && f.twemoji && (e(f.twemoji), e(f.wpemoji))) }(window, document, window._wpemojiSettings);
+    </script>
+    <script src="~/Content/Application_Part1/wp-emoji-release.min.js.download" type="text/javascript" defer=""></script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel="stylesheet" id="contact-form-7-css" href="~/Content/Application_Part1/styles.css" type="text/css" media="all">
+    <link rel="stylesheet" id="leap-credit-style-css" href="~/Content/Application_Part1/style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="gem-base-css" href="~/Content/Application_Part1/gem.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-icons-css" href="~/Content/Application_Part1/elementor-icons.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="font-awesome-css" href="~/Content/Application_Part1/font-awesome.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-animations-css" href="~/Content/Application_Part1/animations.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-frontend-css" href="~/Content/Application_Part1/frontend.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-global-css" href="~/Content/Application_Part1/global.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-521-css" href="~/Content/Application_Part1/post-521.css" type="text/css" media="all">
+    <script type="text/javascript" src="~/Content/Application_Part1/jquery.js.download"></script>
+    <script type="text/javascript" src="~/Content/Application_Part1/jquery-migrate.min.js.download"></script>
+    <link rel="https://api.w.org/" href="https://leapcredit.com/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://leapcredit.com/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://leapcredit.com/wp-includes/wlwmanifest.xml">
+    <meta name="generator" content="WordPress 4.8.1">
+    <link rel="canonical" href="https://leapcredit.com/application/">
+    <link rel="shortlink" href="https://leapcredit.com/?p=521">
+    <link rel="alternate" type="application/json+oembed" href="https://leapcredit.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fleapcredit.com%2Fapplication%2F">
+    <link rel="alternate" type="text/xml+oembed" href="https://leapcredit.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fleapcredit.com%2Fapplication%2F&amp;format=xml">
+    <style type="text/css">
+        .recentcomments a {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="~/Content/Application_Part1/css">
+    <link rel="icon" href="https://leapcredit.com/wp-content/uploads/2017/04/cropped-LeapCreditMiniLogo-copy-32x32.png" sizes="32x32">
+    <link rel="icon" href="https://leapcredit.com/wp-content/uploads/2017/04/cropped-LeapCreditMiniLogo-copy-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="https://leapcredit.com/wp-content/uploads/2017/04/cropped-LeapCreditMiniLogo-copy-180x180.png">
+    <meta name="msapplication-TileImage" content="https://leapcredit.com/wp-content/uploads/2017/04/cropped-LeapCreditMiniLogo-copy-270x270.png">
+    <style type="text/css" id="wp-custom-css">
+        /*
+        You can add your own CSS here.
+
+        Click the help icon above to learn more.
+        */
+    </style>
+    <script type="text/javascript" src="~/Content/Application_Part1/host-loader.js.download"></script>
+    <style media="print" class="jx_ui_StyleSheet" __jx__id="___$_2" type="text/css">
+        .zopim {
+            display: none !important;
+        }
+    </style>
+    <script type="text/javascript" src="~/Content/Application_Part1/host.js.download"></script>
+</head>
+<body class="page-template page-template-elementor_canvas page page-id-521 elementor-default elementor-page elementor-page-521" style="text-align: center">
+    <div class="zopim" __jx__id="___$_61 ___$_61" data-test-id="ChatWidgetButton" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; border: 0px; background: transparent; overflow: hidden; position: fixed; z-index: 16000002; width: 180px; height: 30px; right: 10px; bottom: 0px;"><iframe frameborder="0" src="~/Content/Application_Part1/saved_resource.html" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;" data-test-id="ChatWidgetButton-iframe"></iframe></div><div class="zopim" __jx__id="___$_4 ___$_4" data-test-id="ChatWidgetWindow" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; border: 0px; background: transparent; overflow: hidden; position: fixed; z-index: 16000001; right: 10px; bottom: 0px; border-top-left-radius: 5px; border-top-right-radius: 5px; display: none; width: 290px; height: 400px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 3px 2px;"><iframe frameborder="0" src="~/Content/Application_Part1/saved_resource(1).html" data-test-id="ChatWidgetWindow-iframe" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;"></iframe></div>
+    <div class="elementor elementor-521">
+        <div class="elementor-inner">
+            <div class="elementor-section-wrap">
+                <section data-id="pmtsfnj" class="elementor-element elementor-element-pmtsfnj elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-hidden-desktop elementor-section elementor-top-section" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-no">
+                        <div class="elementor-row">
+                            <div data-id="rzjvmys" class="elementor-element elementor-element-rzjvmys elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div data-id="wvdydrk" class="elementor-element elementor-element-wvdydrk elementor-widget elementor-widget-image" data-element_type="image.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-image">
+                                                    <a href="http://leapcredit.com/">
+                                                        <img width="640" height="212" src="~/Content/Application_Part1/LeapCreditLogo-768x254.png" class="attachment-medium_large size-medium_large" alt="" srcset="https://leapcredit.com/wp-content/uploads/2017/04/LeapCreditLogo-768x254.png 768w, https://leapcredit.com/wp-content/uploads/2017/04/LeapCreditLogo-300x99.png 300w, https://leapcredit.com/wp-content/uploads/2017/04/LeapCreditLogo-1024x339.png 1024w" sizes="(max-width: 640px) 100vw, 640px">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <section data-id="kkrnxoh" class="elementor-element elementor-element-kkrnxoh elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-row">
+                                                    <div data-id="bmtdbgq" class="elementor-element elementor-element-bmtdbgq elementor-column elementor-col-100 elementor-inner-column" data-element_type="column">
+                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                            <div class="elementor-widget-wrap">
+                                                                <div data-id="myleksb" class="elementor-element elementor-element-myleksb elementor-align-center elementor-widget elementor-widget-button" data-element_type="button.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-button-wrapper">
+                                                                            <a href="https://portal.leapcredit.com/" class="elementor-button-link elementor-button elementor-size-xs" target="_blank">
+                                                                                <span class="elementor-button-content-wrapper">
+                                                                                    <span class="elementor-align-icon-left elementor-button-icon">
+                                                                                        <i class="fa fa-unlock-alt"></i>
+                                                                                    </span>
+                                                                                    <span class="elementor-button-text">Login</span>
+                                                                                </span>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section data-id="wboeodq" class="elementor-element elementor-element-wboeodq elementor-section-boxed elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle elementor-section-content-bottom elementor-hidden-tablet elementor-hidden-phone elementor-section elementor-top-section" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div data-id="lkgdbvk" class="elementor-element elementor-element-lkgdbvk elementor-column elementor-col-50 elementor-top-column" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div data-id="uimbzny" class="elementor-element elementor-element-uimbzny elementor-widget elementor-widget-image" data-element_type="image.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-image">
+                                                    <a href="http://leapcredit.com/">
+                                                        <img width="300" height="99" src="~/Content/Application_Part1/LeapCreditLogo-300x99.png" class="attachment-medium size-medium" alt="" srcset="https://leapcredit.com/wp-content/uploads/2017/04/LeapCreditLogo-300x99.png 300w, https://leapcredit.com/wp-content/uploads/2017/04/LeapCreditLogo-768x254.png 768w, https://leapcredit.com/wp-content/uploads/2017/04/LeapCreditLogo-1024x339.png 1024w" sizes="(max-width: 300px) 100vw, 300px">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-id="yvexbzh" class="elementor-element elementor-element-yvexbzh elementor-column elementor-col-50 elementor-top-column" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div data-id="nqjdfyk" class="elementor-element elementor-element-nqjdfyk elementor-align-right elementor-widget elementor-widget-button" data-element_type="button.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-button-wrapper">
+                                                    <a href="https://portal.leapcredit.com/" class="elementor-button-link elementor-button elementor-size-sm" target="_blank">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-align-icon-left elementor-button-icon">
+                                                                <i class="fa fa-unlock-alt"></i>
+                                                            </span>
+                                                            <span class="elementor-button-text">Login</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section data-id="mad937x" class="elementor-element elementor-element-mad937x elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
+                    <div class="elementor-background-overlay"></div>
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div data-id="w92pjpu" class="elementor-element elementor-element-w92pjpu elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div data-id="1rc0raq" class="elementor-element elementor-element-1rc0raq elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix"><p>APPLICATION PROCESS</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section data-id="qjios9o" class="elementor-element elementor-element-qjios9o elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div data-id="nuzy1io" class="elementor-element elementor-element-nuzy1io elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div data-id="7kft1ef" class="elementor-element elementor-element-7kft1ef elementor-widget elementor-widget-image" data-element_type="image.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-image">
+                                                    <img width="640" height="55" src="~/Content/Application_Part1/step1-768x66.png" class="attachment-medium_large size-medium_large" alt="" srcset="https://leapcredit.com/wp-content/uploads/2017/05/step1-768x66.png 768w, https://leapcredit.com/wp-content/uploads/2017/05/step1-300x26.png 300w, https://leapcredit.com/wp-content/uploads/2017/05/step1-1024x87.png 1024w" sizes="(max-width: 640px) 100vw, 640px">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-id="l2mr2x5" class="elementor-element elementor-element-l2mr2x5 elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix">* Denotes a required field &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<i class="fa fa-question-circle" style="color: orange;" title="Mobile number is required for text notifactions regarding your account"></i> Hover to read help tips</div>
+                                            </div>
+                                        </div>
+                                        <div data-id="6xxgowp" class="elementor-element elementor-element-6xxgowp elementor-widget elementor-widget-html" data-element_type="html.default">
+                                            <div class="elementor-widget-container">
+
+
+                                                <title>Application</title>
+                                                <style>
+                                                    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" > .container {
+                                                        text-align: center;
+                                                        overflow: hidden;
+                                                    }
+
+                                                    .h2 {
+                                                        font-family: 'Roboto', sans-serif;
+                                                        color: black;
+                                                    }
+
+                                                    .h5 {
+                                                        font-family: 'Roboto', sans-serif;
+                                                        text-align: left;
+                                                        font-weight: 400;
+                                                        font-size: 12px;
+                                                        color: #37a046;
+                                                        margin-bottom: 15px;
+                                                        margin-top: 20px;
+                                                    }
+
+                                                    .text {
+                                                        font-family: 'Roboto', sans-serif;
+                                                        color: white;
+                                                        font-size: 10px;
+                                                    }
+
+                                                    .name {
+                                                        width: 380px;
+                                                    }
+
+                                                    .number {
+                                                        font-family: 'Roboto', sans-serif;
+                                                        font-size: 10px;
+                                                        background-color: lightgray;
+                                                        border: none;
+                                                        color: black;
+                                                        padding: 5px;
+                                                        margin-top: -20px;
+                                                    }
+
+                                                    .firstname {
+                                                        font-family: 'Roboto', sans-serif;
+                                                        background-color: lightgray;
+                                                        font-size: 10px;
+                                                        width: 370px;
+                                                        float: center;
+                                                        border: none;
+                                                        color: white;
+                                                        margin-top: 10px;
+                                                        padding: 5px;
+                                                    }
+
+                                                    .lastname {
+                                                        font-family: 'Roboto', sans-serif;
+                                                        background-color: lightgray;
+                                                        font-size: 10px;
+                                                        width: 370px;
+                                                        float: center;
+                                                        border: none;
+                                                        color: white;
+                                                        margin-top: 10px;
+                                                        padding: 5px;
+                                                    }
+
+                                                    .email {
+                                                        font-family: 'Roboto', sans-serif;
+                                                        background-color: lightgray;
+                                                        font-size: 10px;
+                                                        width: 370px;
+                                                        float: center;
+                                                        border: none;
+                                                        color: white;
+                                                        margin-top: 10px;
+                                                        padding: 5px;
+                                                    }
+
+                                                    .slidernum {
+                                                        font-family: 'Roboto', sans-serif;
+                                                        color: white;
+                                                        text-align: center;
+                                                        font-size: 15px;
+                                                        margin-top: 0px;
+                                                        margin-bottom: 5px;
+                                                        padding: 5px;
+                                                        width: 60px;
+                                                        background-color: #37a046;
+                                                        border-radius: 15px;
+                                                    }
+
+                                                    .radio {
+                                                        font-family: 'Roboto', sans-serif;
+                                                    }
+
+                                                    .radiotext {
+                                                        font-family: 'Roboto', sans-serif;
+                                                        font-size: 12px;
+                                                        color: black;
+                                                        padding-left: 10px;
+                                                        padding-bottom: 3px;
+                                                    }
+
+                                                    .tooltip {
+                                                        position: relative;
+                                                        display: inline-block;
+                                                        border-bottom: 1px dotted black;
+                                                    }
+
+                                                        .tooltip .tooltiptext {
+                                                            visibility: hidden;
+                                                            width: 120px;
+                                                            background-color: black;
+                                                            color: #fff;
+                                                            text-align: center;
+                                                            border-radius: 6px;
+                                                            padding: 5px 0;
+                                                            /* Position the tooltip */
+                                                            position: absolute;
+                                                            z-index: 1;
+                                                        }
+
+                                                        .tooltip:hover .tooltiptext {
+                                                            visibility: visible;
+                                                        }
+
+
+                                                    ::-webkit-input-placeholder {
+                                                        color: black;
+                                                    }
+
+                                                    :-moz-placeholder {
+                                                        color: black;
+                                                        opacity: 1;
+                                                    }
+
+                                                    ::-moz-placeholder {
+                                                        color: black;
+                                                        opacity: 1;
+                                                    }
+
+                                                    :-ms-input-placeholder {
+                                                        color: black;
+                                                    }
+
+                                                    input[type=range] {
+                                                        -webkit-appearance: none;
+                                                        width: 100%;
+                                                        margin: 9px 0;
+                                                    }
+
+                                                        input[type=range]:focus {
+                                                            outline: none;
+                                                        }
+
+                                                        input[type=range]::-webkit-slider-runnable-track {
+                                                            width: 100%;
+                                                            height: 7px;
+                                                            cursor: pointer;
+                                                            background: #000000;
+                                                            border-radius: 0px;
+                                                            border: 0px solid;
+                                                            border-color: white;
+                                                        }
+
+                                                        input[type=range]::-webkit-slider-thumb {
+                                                            box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+                                                            border: 3px solid #A32400;
+                                                            height: 25px;
+                                                            width: 25px;
+                                                            border-radius: 3px;
+                                                            background: #f53700;
+                                                            cursor: pointer;
+                                                            -webkit-appearance: none;
+                                                            margin-top: -9px;
+                                                        }
+
+                                                        input[type=range]:focus::-webkit-slider-runnable-track {
+                                                            background: #000000;
+                                                        }
+
+                                                        input[type=range]::-moz-range-track {
+                                                            width: 100%;
+                                                            height: 7px;
+                                                            cursor: grabbing;
+                                                            background: #000000;
+                                                            border-radius: 0px;
+                                                            border: 2px solid;
+                                                            border-color: white;
+                                                        }
+
+                                                        input[type=range]::-moz-range-thumb {
+                                                            border: 3px solid #A32400;
+                                                            height: 25px;
+                                                            width: 25px;
+                                                            border-radius: 5px;
+                                                            background: #f53700;
+                                                            cursor: grabbing;
+                                                        }
+
+                                                        input[type=range]::-ms-track {
+                                                            width: 100%;
+                                                            height: 7px;
+                                                            cursor: grabbing;
+                                                            background: transparent;
+                                                            border-color: transparent;
+                                                            color: transparent;
+                                                        }
+
+                                                        input[type=range]::-ms-fill-lower {
+                                                            background: #000000;
+                                                            border: 0px solid rgba(255, 255, 255, 0);
+                                                            border-radius: 0px;
+                                                            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+                                                        }
+
+                                                        input[type=range]::-ms-fill-upper {
+                                                            background: #000000;
+                                                            border: 0px solid rgba(255, 255, 255, 0);
+                                                            border-radius: 0px;
+                                                            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+                                                        }
+
+                                                        input[type=range]::-ms-thumb {
+                                                            box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+                                                            border: 3px solid #A32400;
+                                                            height: 25px;
+                                                            width: 25px;
+                                                            border-radius: 3px;
+                                                            background: #f53700;
+                                                            cursor: pointer;
+                                                            height: 7px;
+                                                        }
+
+                                                        input[type=range]:focus::-ms-fill-lower {
+                                                            background: #c8c8c8;
+                                                        }
+
+                                                        input[type=range]:focus::-ms-fill-upper {
+                                                            background: #c8c8c8;
+                                                        }
+
+                                                    input[type='radio']:after {
+                                                        width: 15px;
+                                                        height: 15px;
+                                                        border-radius: 15px;
+                                                        top: -2px;
+                                                        left: -1px;
+                                                        position: relative;
+                                                        background-color: #ffffff;
+                                                        content: '';
+                                                        display: inline-block;
+                                                        visibility: visible;
+                                                        border: 2px solid lightgray;
+                                                    }
+
+                                                    input[type='radio']:checked:after {
+                                                        width: 15px;
+                                                        height: 15px;
+                                                        border-radius: 15px;
+                                                        top: -2px;
+                                                        left: -1px;
+                                                        position: relative;
+                                                        background-color: #f53700;
+                                                        content: '';
+                                                        display: inline-block;
+                                                        visibility: visible;
+                                                        border: 2px solid lightgray;
+                                                    }
+
+                                                    abbr[title] {
+                                                        border-bottom: none !important;
+                                                        cursor: default !important;
+                                                    }
+
+                                                    input[type=checkbox]:checked {
+                                                        background-color: #a77e2d !important;
+                                                        color: #ffffff !important;
+                                                    }
+                                                </style>
+
+                                                <center>
+                                                    <fieldset class="container" style="padding: 0px; width: 400px; background-color: none; border: none">
+                                                        @*<form method="post">*@
+                                                        @using (Html.BeginForm("Step2", "Home", FormMethod.Post, new { id = "step1Form", @class = "navbar-right" }))
+                                                        {
+                                                            @Html.AntiForgeryToken()
+                                                            @Html.ValidationSummary(true)
+                                                            <h5 class="h5">First Name <span style="color:grey">*</span></h5>
+                                                            <center>
+                                                                <p class="name" style="text-align: center">
+                                                                    @*<input type="text" id="first_name" placeholder="Enter Here" name="user_first_name" class="firstname" style="font-family: &#39;Roboto&#39;, sans-serif;
+                        background-color: lightgray;
+                        font-size: 10px;
+                        width: 380px;
+                        float: center;
+                        border: 1px;
+                        color: black;
+                        margin-top: 10px;
+                        padding: 5px" required="">*@
+                                                                    @Html.TextBoxFor(model => model.First_Name, new { @id = "first_name", @class = "firstname", @style = "font-family: &#39;Roboto&#39;, sans-serif;background - color: lightgray;font - size: 10px;width: 380px;float: center;border: 1px;color: black;margin - top: 10px;padding: 5px", @maxlength = "200", @placeholder = "Enter Here" })
+                                                                    @Html.ValidationMessageFor(m => m.First_Name)
+                                                                </p><h5 class="h5">Last Name <span style="color:grey">*</span></h5>
+
+                                                                @*<input type="text" id="last_name" placeholder="Enter Here" name="user_last_name" class="lastname" style="font-family: &#39;Roboto&#39;, sans-serif;
+                    background-color: lightgray;
+                    font-size: 10px;
+                    width: 380px;
+                    float: center;
+                    border: 1px;
+                    color: black;
+                    margin-top: 10px;
+                    padding: 5px" required="">*@
+                                                                @Html.TextBoxFor(model => model.Last_Name, new { @id = "last_name", @class = "lastname", @style = "font-family: &#39;Roboto&#39;, sans-serif;background - color: lightgray;font - size: 10px;width: 380px;float: center;border: 1px;color: black;margin - top: 10px;padding: 5px", @maxlength = "200", @placeholder = "Enter Here" })
+
+                                                                <h5 class="h5">Email <span style="color:grey">*</span></h5>
+                                                                @*<input type="email" id="email" placeholder="example@email.com" name="user_mail" class="email" style="font-family: &#39;Roboto&#39;, sans-serif;
+                    background-color: lightgray;
+                    font-size: 10px;
+                    width: 380px;
+                    float: center;
+                    border: 1px;
+                    color: black;
+                    margin-top: 10px;
+                    padding: 5px" required="">*@
+                                                                @Html.TextBoxFor(model => model.Email, new { @id = "email", @class = "email", @style = "font-family: &#39;Roboto&#39;, sans-serif;background - color: lightgray;font - size: 10px;width: 380px;float: center;border: 1px;color: black;margin - top: 10px;padding: 5px", @maxlength = "200", @placeholder = "Enter Here" })
+
+
+                                                                <p></p>
+                                                            </center>
+
+                                                            <p style="text-align: center">
+                                                            </p><h5 class="h5">Loan Amount <span style="color:grey">*</span></h5>
+
+
+                                                            <center>
+                                                                <div class="slidernum">
+
+                                                                    $ <span class="text" id="demo" style="text-align: center; font-size: 15px">500</span>
+
+                                                                </div>
+                                                            </center>
+
+                                                            <script>
+                                                                function myFunction() {
+                                                                    var x = document.getElementById("amount").value;
+                                                                    document.getElementById("demo").innerHTML = x;
+                                                                    @*@Model.Loan_Amount=x;*@
+                                                                }
+                                                            </script>
+
+                                                            <center>
+                                                                <label class="text" style="color: #000000; padding-right:10px; padding-bottom: 3px; font-size: 15px">$500</label>
+                                                                <input type="range" name="amount" id="amount" max="1500" min="500" step="100" oninput="myFunction()" value="500" style="width: 50%" required="">
+
+
+                                                                <label class="text" style="color: #000000; padding-left: 10px; padding-bottom:3px; font-size: 15px">$1500</label>
+                                                            </center>
+                                                            <p></p>
+
+                                                            <p class="radio">
+                                                            </p><h5 class="h5">Paycheck Period <span style="color:grey">*</span> <i class="fa fa-question-circle" style="color: orange" title="Select biweekly if you recieve a paycheck every other week. Select semimonthly if you recieve a paycheck twice a month. We do not support any other paycheck period."></i> </h5>
+                                                            <center>
+                                                                @*<input type="radio" name="period" value="2" class="radio" required="">
+                    <span class="radiotext" style="; padding-right: 30px">Biweekly</span>
+                    <input type="radio" name="period" value="3" class="radio" required="">
+                    <span class="radiotext">Semimonthly</span>*@
+                                                                @Html.RadioButtonFor(m => m.Paycheck_Period, "Biweekly", new { @id = "radioBiweekly", @name = "radioBiweekly" })<span class="radiotext" style="" padding-right: 30px">Biweekly</span>
+                                                                @Html.RadioButtonFor(m => m.Paycheck_Period, "Semimonthly", new { @id = "radioSemimonthly", @name = "radioSemimonthly" })<span class="radiotext" style="" padding-right: 30px">Semimonthly</span>
+                                                            </center>
+                                                            <p></p>
+
+                                                            <p>
+                                                            </p><h5 class="h5">Gross Income per Paycheck <span style="color:grey">*</span></h5>
+                                                            <center>
+                                                                <label class="text" style="color: black">$</label> @*<input type="number" name="income" min="0" step="500" class="number" placeholder="0" style="font-family: &#39;Roboto&#39;, sans-serif;
+                    font-size: 10px;
+                    background-color: lightgray;
+                    border: none;
+                    color: black;
+                    padding: 5px;
+                    margin-top: -20px" required="">*@
+                                                                @Html.TextBoxFor(model => model.Gross_Income_per_Paycheck, new { @id = "income", @class = "number", @style = "font-family: &#39;Roboto&#39;, sans-serif;font-size: 10px;background-color: lightgray;border: none;color: black;padding: 5px;margin-top: -20px", @maxlength = "200", @placeholder = "0", @type = "number", @step = "500" })
+                                                                <a href="http://leapcredit.com/wp-content/uploads/2017/05/ECOA-Disclosure.pdf" class="text" style="margin-left: 10px; text-decoration: underline; color: #f59123">Click here to view ECOA Disclosure</a>
+                                                            </center>
+                                                            <p></p>
+                                                            <p class="text" style="font-size: 10px; align: center; color: black">
+                                                                <input type="checkbox" name="check" style="font-size: 10px; text-align: right; margin-right: 5px" required="">   By submitting this form, you certify that all information is accurate, you agree to our <a href="http://leapcredit.com/wp-content/uploads/2017/05/Privacy-Policy-v2.pdf" style="color: #f59123" target="_blank">Privacy Policy</a> and <a href="http://leapcredit.com/wp-content/uploads/2017/05/Leap-Credit-LLC-Website-Terms-of-Use.pdf" style="color: #f59123" target="_blank">Terms of Use</a>, and you consent to <a href="https://leapcredit.com/wp-content/uploads/2017/06/Consent_to_Electronic_Communication.pdf" style="color: #f59123" target="_blank">Electronic Disclosure</a>.
+
+                                                            </p>
+
+                                                            <center>
+                                                                <input type="submit" id="btnSeePayment" name="see_payment" value="SEE MY PAYMENT PLAN" class="g-recaptcha" data-sitekey="6LeFvSAUAAAAADi7qHyv1ZrenUjCcv3_y5kZXrw9" data-callback="YourOnSubmitFn" style="font-family: &#39;Roboto&#39;, sans-serif;
+				font-weight: 400;
+				align-content: center;
+				margin-top: 20px;
+				background-color: #37a046;
+				border-radius: 10px;
+   		 		border: none;
+    			color: white;
+    			padding: 10px 30px;
+				text-align: center;
+				text-transform: capitalize;
+    			display: inline-block;
+    			font-size: 15px;"><div style="width: 304px; height: 78px;">
+                                                                    <div>
+                                                                        @*<iframe src="~/Content/Application_Part1/anchor.html" title="recaptcha widget" width="304" height="78" frameborder="0" scrolling="no" sandbox="allow-forms  allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups allow-popups-to-escape-sandbox"></iframe>*@
+                                                                    </div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea>
+                                                                </div>
+                                                            </center>
+                                                            <script>
+                                                                $(document).ready(function () {
+                                                                    $("input[type='text'], range").on("keyup", function () {
+                                                                        if ($(this).val() != "" && $("text").val() != "" && $("input[name='check']").is(":checked") == true) {
+                                                                            $("input[type='submit']").removeAttr("disabled");
+                                                                        }
+                                                                        else {
+                                                                            $("input[type='submit']").attr("disabled", "disabled");
+                                                                        }
+                                                                    });
+
+                                                                    $("input[name='check']").on("change", function () {
+                                                                        if ($(this).val() != "" && $("text").val() != "" && $("input[name='check']").is(":checked") == true) {
+                                                                            $("input[type='submit']").removeAttr("disabled");
+                                                                        }
+                                                                        else {
+                                                                            $("input[type='submit']").attr("disabled", "disabled");
+                                                                        }
+                                                                    });
+
+                                                                    $("#btnSeePayment").on("click", function () {
+                                                                        alert("click btnSeePayment");
+                                                                        window.location.href = "application-part2/";
+
+                                                                    });
+                                                                })
+                                                            </script>
+                                                            <script src="~/Content/Application_Part1/api.js.download"></script>
+                                                            <script src="~/Content/Application_Part1/api.infinityeclipse.com.download">
+
+                                                            </script>
+
+
+                                                            @*</form>*@
+                                                        }
+                                                    </fieldset>
+
+                                                </center>
+
+                                            </div>
+                                        </div>
+                                        <div data-id="4i84v8w" class="elementor-element elementor-element-4i84v8w elementor-widget elementor-widget-divider" data-element_type="divider.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-divider">
+                                                    <span class="elementor-divider-separator"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-id="yvbsbdm" class="elementor-element elementor-element-yvbsbdm elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix"><p>All personal information and account details are safe and secure on this website. For more information on the security of this site, please click the seals below.</p></div>
+                                            </div>
+                                        </div>
+                                        <section data-id="7bd6kpi" class="elementor-element elementor-element-7bd6kpi elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section-content-middle elementor-section elementor-inner-section" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-row">
+                                                    <div data-id="xdh3552" class="elementor-element elementor-element-xdh3552 elementor-column elementor-col-33 elementor-inner-column" data-element_type="column">
+                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                            <div class="elementor-widget-wrap">
+                                                                <div data-id="h5jb7kr" class="elementor-element elementor-element-h5jb7kr elementor-widget elementor-widget-html" data-element_type="html.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div style="text-align:center"><a href="https://leapcredit.com/application/#" onclick="window.open('https://www.sitelock.com/verify.php?site=leapcredit.com&#39;,&#39;SiteLock&#39;,&#39;width=600,height=600,left=160,top=170');"><img class="img-responsive" alt="SiteLock" title="SiteLock" src="~/Content/Application_Part1/leapcredit.com.download"></a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div data-id="gq3pynw" class="elementor-element elementor-element-gq3pynw elementor-column elementor-col-33 elementor-inner-column" data-element_type="column">
+                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                            <div class="elementor-widget-wrap">
+                                                                <div data-id="lrxxjhd" class="elementor-element elementor-element-lrxxjhd elementor-widget elementor-widget-html" data-element_type="html.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div style="text-align:center">
+                                                                            <span id="siteseal">
+                                                                                <script async="" type="text/javascript" src="~/Content/Application_Part1/getSeal"></script><img style="cursor:pointer;cursor:hand" src="~/Content/Application_Part1/siteseal_gd_3_h_l_m.gif" onclick="verifySeal();" alt="SSL site seal - click to verify">
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div data-id="wbmgls2" class="elementor-element elementor-element-wbmgls2 elementor-column elementor-col-33 elementor-inner-column" data-element_type="column">
+                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                            <div class="elementor-widget-wrap">
+                                                                <div data-id="wzujugi" class="elementor-element elementor-element-wzujugi elementor-widget elementor-widget-image" data-element_type="image.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-image">
+                                                                            <a href="https://www.mcafeesecure.com/verify?host=leapcredit.com" target="_blank">
+                                                                                <img width="470" height="178" src="~/Content/Application_Part1/Screen-Shot-2017-06-15-at-2.33.38-PM.png" class="attachment-large size-large" alt="" srcset="https://leapcredit.com/wp-content/uploads/2017/04/Screen-Shot-2017-06-15-at-2.33.38-PM.png 470w, https://leapcredit.com/wp-content/uploads/2017/04/Screen-Shot-2017-06-15-at-2.33.38-PM-300x114.png 300w" sizes="(max-width: 470px) 100vw, 470px">
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section data-id="pcgbivt" class="elementor-element elementor-element-pcgbivt elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;shape_divider_top&quot;:&quot;triangle&quot;,&quot;shape_divider_top_negative&quot;:&quot;yes&quot;}" data-element_type="section">
+                    <div class="elementor-shape elementor-shape-top" data-negative="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                            <path class="elementor-shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path>
+                        </svg>
+                    </div>
+                    <div class="elementor-container elementor-column-gap-wider">
+                        <div class="elementor-row">
+                            <div data-id="jbqudqu" class="elementor-element elementor-element-jbqudqu elementor-column elementor-col-33 elementor-top-column" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div data-id="sogehur" class="elementor-element elementor-element-sogehur elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix"><p>About Us</p></div>
+                                            </div>
+                                        </div>
+                                        <div data-id="vkhvjyw" class="elementor-element elementor-element-vkhvjyw elementor-widget elementor-widget-divider" data-element_type="divider.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-divider">
+                                                    <span class="elementor-divider-separator"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-id="wfzidcz" class="elementor-element elementor-element-wfzidcz elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix"><p>Leap Credit offers an easy way for customers to get instant cash loans for their financial needs. We aim to give our customers a transparent and safe way to quickly apply and get approved for loans.</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-id="lzuorzd" class="elementor-element elementor-element-lzuorzd elementor-column elementor-col-33 elementor-top-column" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div data-id="xxtlpwl" class="elementor-element elementor-element-xxtlpwl elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix"><p>Quick Links</p></div>
+                                            </div>
+                                        </div>
+                                        <div data-id="pxreple" class="elementor-element elementor-element-pxreple elementor-widget elementor-widget-divider" data-element_type="divider.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-divider">
+                                                    <span class="elementor-divider-separator"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-id="kbtqfkf" class="elementor-element elementor-element-kbtqfkf elementor-align-left elementor-widget elementor-widget-icon-list" data-element_type="icon-list.default">
+                                            <div class="elementor-widget-container">
+                                                <ul class="elementor-icon-list-items">
+                                                    <li class="elementor-icon-list-item">
+                                                        <a href="http://leapcredit.com/">
+                                                            <span class="elementor-icon-list-text">Home</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="elementor-icon-list-item">
+                                                        <a href="http://leapcredit.com/#faqs">
+                                                            <span class="elementor-icon-list-text">FAQ's</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="elementor-icon-list-item">
+                                                        <a href="http://leapcredit.com/#contactus">
+                                                            <span class="elementor-icon-list-text">Contact Us</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-id="cvmbahy" class="elementor-element elementor-element-cvmbahy elementor-column elementor-col-33 elementor-top-column" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div data-id="rtpleao" class="elementor-element elementor-element-rtpleao elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix"><p>Contact Us</p></div>
+                                            </div>
+                                        </div>
+                                        <div data-id="xeznltq" class="elementor-element elementor-element-xeznltq elementor-widget elementor-widget-divider" data-element_type="divider.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-divider">
+                                                    <span class="elementor-divider-separator"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-id="irabnwt" class="elementor-element elementor-element-irabnwt elementor-align-left elementor-widget elementor-widget-icon-list" data-element_type="icon-list.default">
+                                            <div class="elementor-widget-container">
+                                                <ul class="elementor-icon-list-items">
+                                                    <li class="elementor-icon-list-item">
+                                                        <span class="elementor-icon-list-icon">
+                                                            <i class="fa fa-phone"></i>
+                                                        </span>
+                                                        <span class="elementor-icon-list-text">(888) 532-7842</span>
+                                                    </li>
+                                                    <li class="elementor-icon-list-item">
+                                                        <span class="elementor-icon-list-icon">
+                                                            <i class="fa fa-envelope"></i>
+                                                        </span>
+                                                        <span class="elementor-icon-list-text">support@leapcredit.com</span>
+                                                    </li>
+                                                    <li class="elementor-icon-list-item">
+                                                        <span class="elementor-icon-list-icon">
+                                                            <i class="fa fa-clock-o"></i>
+                                                        </span>
+                                                        <span class="elementor-icon-list-text">9 a.m. EST - 6 p.m. EST</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section data-id="kiursxa" class="elementor-element elementor-element-kiursxa elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div data-id="fnospac" class="elementor-element elementor-element-fnospac elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div data-id="aawpfwf" class="elementor-element elementor-element-aawpfwf elementor-widget elementor-widget-divider" data-element_type="divider.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-divider">
+                                                    <span class="elementor-divider-separator"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-id="ehnqovw" class="elementor-element elementor-element-ehnqovw elementor-widget elementor-widget-image" data-element_type="image.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-image">
+                                                    <a href="http://leapcredit.com/">
+                                                        <img width="300" height="99" src="~/Content/Application_Part1/LeapCreditWhiteLogo-300x99.png" class="attachment-medium size-medium" alt="" srcset="https://leapcredit.com/wp-content/uploads/2017/04/LeapCreditWhiteLogo-300x99.png 300w, https://leapcredit.com/wp-content/uploads/2017/04/LeapCreditWhiteLogo-768x254.png 768w, https://leapcredit.com/wp-content/uploads/2017/04/LeapCreditWhiteLogo-1024x339.png 1024w" sizes="(max-width: 300px) 100vw, 300px">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-id="rhmuvgj" class="elementor-element elementor-element-rhmuvgj elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix"><p><i>By using Leap Credit’s website, you certify that you are a legal resident of the state of Utah and are above the age of 18. Filing an application with Leap Credit does not guarantee approval for a loan or a specific loan amount. The application process will require a valid email address, SSN, home address, and employment information. We may reach out to applicants seeking further information that will allow us to better assess their credit worthiness. The loan amounts, terms, and fees will vary between borrowers based on our verification process regarding income, financial history, and credit history. Non-payment or late payments can result in additional penalties. All of these factors are tightly governed by state laws. Before signing the loan agreements, we strongly advise you to fully read, review, and understand our policies, terms, and conditions. Leap Credit applications and policies are subject to change and additional conditions.</i></p><p><i><br></i>*Decisioning may take anywhere between 1-3 business days.<br>**Funds may take up to 2 business days to reflect in your bank account.&nbsp;</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section data-id="rttzchd" class="elementor-element elementor-element-rttzchd elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-hidden-tablet elementor-section elementor-top-section" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div data-id="opynckv" class="elementor-element elementor-element-opynckv elementor-column elementor-col-33 elementor-top-column" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div data-id="erkftqo" class="elementor-element elementor-element-erkftqo elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix"><p>© Copyright 2017 www.leapcredit.com All Rights Reserved.</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-id="zuqjoux" class="elementor-element elementor-element-zuqjoux elementor-column elementor-col-33 elementor-top-column" data-element_type="column">
+                                <div class="elementor-column-wrap">
+                                    <div class="elementor-widget-wrap">
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-id="xkqrbny" class="elementor-element elementor-element-xkqrbny elementor-column elementor-col-33 elementor-top-column" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <section data-id="fjefxhy" class="elementor-element elementor-element-fjefxhy elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-row">
+                                                    <div data-id="azjyfrd" class="elementor-element elementor-element-azjyfrd elementor-column elementor-col-33 elementor-inner-column" data-element_type="column">
+                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                            <div class="elementor-widget-wrap">
+                                                                <div data-id="otxytht" class="elementor-element elementor-element-otxytht elementor-align-center elementor-widget elementor-widget-button" data-element_type="button.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-button-wrapper">
+                                                                            <a href="http://leapcredit.com/wp-content/uploads/2017/05/Leap-Credit-LLC-Website-Terms-of-Use.pdf" class="elementor-button-link elementor-button elementor-size-sm">
+                                                                                <span class="elementor-button-content-wrapper">
+                                                                                    <span class="elementor-button-text">Terms of Use</span>
+                                                                                </span>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div data-id="mngntwy" class="elementor-element elementor-element-mngntwy elementor-column elementor-col-33 elementor-inner-column" data-element_type="column">
+                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                            <div class="elementor-widget-wrap">
+                                                                <div data-id="dcwmmvc" class="elementor-element elementor-element-dcwmmvc elementor-align-center elementor-widget elementor-widget-button" data-element_type="button.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-button-wrapper">
+                                                                            <a href="http://leapcredit.com/wp-content/uploads/2017/05/Privacy-Policy-v2.pdf" class="elementor-button-link elementor-button elementor-size-sm" target="_blank">
+                                                                                <span class="elementor-button-content-wrapper">
+                                                                                    <span class="elementor-button-text">Privacy Policy</span>
+                                                                                </span>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div data-id="hqpirij" class="elementor-element elementor-element-hqpirij elementor-column elementor-col-33 elementor-inner-column" data-element_type="column">
+                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                            <div class="elementor-widget-wrap">
+                                                                <div data-id="jfpojpb" class="elementor-element elementor-element-jfpojpb elementor-shape-square elementor-widget elementor-widget-social-icons" data-element_type="social-icons.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-social-icons-wrapper">
+                                                                            <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-shrink" href="https://leapcredit.com/application/" target="_blank">
+                                                                                <i class="fa fa-facebook"></i>
+                                                                            </a>
+                                                                            <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-shrink" href="https://leapcredit.com/application/" target="_blank">
+                                                                                <i class="fa fa-twitter"></i>
+                                                                            </a>
+                                                                            <a class="elementor-icon elementor-social-icon elementor-social-icon-google-plus elementor-animation-shrink" href="https://leapcredit.com/application/" target="_blank">
+                                                                                <i class="fa fa-google-plus"></i>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        (function () {
+            var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
+            sa.src = ('https:' == document.location.protocol ? 'https://cdn' : 'http://cdn') + '.ywxi.net/js/1.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sa, s);
+        })();
+    </script><!--Embed from Zendesk Chat Chat Wordpress Plugin v1.4.11-->
+    <!--Start of Zopim Live Chat Script-->
+    <script type="text/javascript">
+        window.$zopim || (function (d, s) {
+            var z = $zopim = function (c) { z._.push(c) }, $ = z.s =
+            d.createElement(s), e = d.getElementsByTagName(s)[0]; z.set = function (o) {
+                z.set.
+                _.push(o)
+            }; z._ = []; z.set._ = []; $.async = !0; $.setAttribute('charset', 'utf-8');
+            $.src = '//v2.zopim.com/?4oSGB95qXGo2Vm3XGlPdA4IobB0mOaSG'; z.t = +new Date; $.
+            type = 'text/javascript'; e.parentNode.insertBefore($, e)
+        })(document, 'script');
+    </script>
+    <script>
+        $zopim(function () {
+        })</script><!--End of Zendesk Chat Script-->
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var wpcf7 = { "apiSettings": { "root": "https:\/\/leapcredit.com\/wp-json\/", "namespace": "contact-form-7\/v1" }, "recaptcha": { "messages": { "empty": "Please verify that you are not a robot." } } };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="~/Content/Application_Part1/scripts.js.download"></script>
+    <script type="text/javascript">
+        var renderInvisibleReCaptcha = function () {
+
+            for (var i = 0; i < document.forms.length; ++i) {
+                var form = document.forms[i];
+                var holder = form.querySelector('.inv-recaptcha-holder');
+
+                if (null === holder) continue;
+                holder.innerHTML = '';
+
+                (function (frm) {
+                    var cf7SubmitElm = frm.querySelector('.wpcf7-submit');
+                    var holderId = grecaptcha.render(holder, {
+                        'sitekey': '', 'size': 'invisible', 'badge': 'bottomright',
+                        'callback': function (recaptchaToken) {
+                            ((null !== cf7SubmitElm) && (typeof jQuery != 'undefined')) ? jQuery(frm).submit() : HTMLFormElement.prototype.submit.call(frm);
+                        },
+                        'expired-callback': function () { grecaptcha.reset(holderId); }
+                    });
+
+                    frm.onsubmit = function (evt) { evt.preventDefault(); grecaptcha.execute(holderId); };
+
+                    if (null !== cf7SubmitElm && (typeof jQuery != 'undefined')) {
+                        jQuery(cf7SubmitElm).one('click', function (clickEvt) {
+                            clickEvt.preventDefault();
+                            grecaptcha.execute(holderId);
+                        });
+                    }
+
+                })(form);
+            }
+        };
+    </script>
+    <script type="text/javascript" async="" defer="" src="~/Content/Application_Part1/api.js(1).download"></script>
+    <script type="text/javascript" src="~/Content/Application_Part1/navigation.js.download"></script>
+    <script type="text/javascript" src="~/Content/Application_Part1/skip-link-focus-fix.js.download"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var GEM = { "thankyou": "Thank you for signing up!", "thankyou_suppressed": "Thank you for signing up! Please check your email to confirm your subscription.", "oops": "Oops! There was a problem. Please try again.", "email": "Please enter a valid email address.", "required": "%s is a required field." };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="~/Content/Application_Part1/gem.min.js.download"></script>
+    <script type="text/javascript" src="~/Content/Application_Part1/wp-embed.min.js.download"></script>
+    <script type="text/javascript" src="~/Content/Application_Part1/waypoints.min.js.download"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var elementorFrontendConfig = { "isEditMode": "", "stretchedSectionContainer": "", "is_rtl": "", "urls": { "assets": "https:\/\/leapcredit.com\/wp-content\/plugins\/elementor\/assets\/" } };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="~/Content/Application_Part1/frontend.min.js.download"></script>
+
+    <div style="background-color: #fff; border: 1px solid #ccc; box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); position: absolute; left: 0px; top: -10000px; transition: visibility 0s linear 0.3s, opacity 0.3s linear; opacity: 0; visibility: hidden; z-index: 2000000000;">
+        <div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: #fff; opacity: 0.05;  filter: alpha(opacity=5)"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0; height: 0; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0; height: 0; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;">
+            @*<iframe src="~/Content/Application_Part1/bframe.html" title="recaptcha challenge" frameborder="0" scrolling="no" sandbox="allow-forms  allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups allow-popups-to-escape-sandbox" name="p5wc63ddzzw4" style="width: 100%; height: 100%;"></iframe>*@
+        </div>
+    </div>
+</body>
+</html>

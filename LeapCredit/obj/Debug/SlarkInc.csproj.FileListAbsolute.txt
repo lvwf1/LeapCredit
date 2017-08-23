@@ -1,0 +1,156 @@
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\SlarkInc.dll.config
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\SlarkInc.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\SlarkInc.pdb
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Antlr3.Runtime.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\EntityFramework.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\EntityFramework.SqlServer.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.Google.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Web.Infrastructure.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Newtonsoft.Json.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Owin.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\System.Web.Helpers.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\System.Web.Mvc.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\System.Web.Optimization.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\System.Web.Razor.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\System.Web.WebPages.Deployment.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\System.Web.WebPages.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\System.Web.WebPages.Razor.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\WebGrease.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\System.Web.Helpers.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\System.Web.Mvc.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\System.Web.Optimization.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\System.Web.Razor.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\System.Web.WebPages.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\System.Web.WebPages.Deployment.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\System.Web.WebPages.Razor.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Newtonsoft.Json.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Antlr3.Runtime.pdb
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\EntityFramework.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\EntityFramework.SqlServer.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.Google.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\System.Web.Helpers.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\System.Web.Mvc.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\System.Web.Optimization.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\System.Web.Razor.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\System.Web.WebPages.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\EntityFramework.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.Owin.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.Owin.Host.SystemWeb.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.Owin.Security.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.Owin.Security.Facebook.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\obj\Debug\SlarkInc.dll
+c:\users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\obj\Debug\SlarkInc.pdb
+C:\Users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\PagedList.dll
+C:\Users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\PagedList.Mvc.dll
+C:\Users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\PagedList.xml
+C:\Users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\bin\PagedList.Mvc.xml
+C:\Users\thinkpad\documents\visual studio 2013\Projects\SlarkInc\SlarkInc\obj\Debug\SlarkInc.csprojResolveAssemblyReference.cache
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\SlarkInc.dll.config
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\SlarkInc.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\SlarkInc.pdb
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Antlr3.Runtime.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\EntityFramework.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\EntityFramework.SqlServer.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.Google.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Newtonsoft.Json.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Owin.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\PagedList.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\PagedList.Mvc.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\System.Web.Helpers.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\System.Web.Mvc.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\System.Web.Optimization.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\System.Web.Razor.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\System.Web.WebPages.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\System.Web.WebPages.Razor.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\WebGrease.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Newtonsoft.Json.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\PagedList.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\PagedList.Mvc.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\System.Web.Helpers.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\System.Web.Mvc.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\System.Web.Razor.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\System.Web.WebPages.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\System.Web.WebPages.Razor.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\System.Web.Optimization.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Antlr3.Runtime.pdb
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\EntityFramework.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\EntityFramework.SqlServer.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.Google.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\EntityFramework.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.Owin.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.Owin.Security.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.Owin.Security.Facebook.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\obj\Debug\SlarkInc.dll
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\obj\Debug\SlarkInc.pdb
+D:\Projects\MVC5_EF6_BS3_12\SlarkInc\SlarkInc\obj\Debug\SlarkInc.csprojResolveAssemblyReference.cache
